@@ -124,10 +124,6 @@ PRODUCT_PACKAGES += keystore.msm8226
 # Charger
 PRODUCT_PACKAGES += charger charger_res_images
 
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8226
@@ -200,4 +196,3 @@ endif
 -include $(LOCAL_PATH)/system_prop.mk
 
 $(call inherit-product, vendor/lge/msm8226-common/msm8226-common-vendor.mk)
-
