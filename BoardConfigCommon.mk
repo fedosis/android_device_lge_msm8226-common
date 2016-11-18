@@ -171,6 +171,3 @@ TARGET_HW_DISK_ENCRYPTION := false
 include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
-
-
-
