@@ -70,6 +70,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/izat.conf:system/etc/izat.conf \
     $(LOCAL_PATH)/gps/etc/quipc.conf:system/etc/quipc.conf \
     $(LOCAL_PATH)/gps/etc/sap.conf:system/etc/sap.conf
+    
+# Gello
+PRODUCT_PACKAGES += \
+    Gello
+
 
 # Qcom wlan
 ifeq ($(BOARD_HAS_QCOM_WCNSS),true)
